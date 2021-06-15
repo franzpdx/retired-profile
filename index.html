@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+			<li>
+				<a href="#contact">Contact</a>
+			</li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Thomas Franz</h1>
+            <h2>Software Engineer</h2>
+			<h2>Beaverton, Oregon</h2>
+            <a href="https://github.com/franzpdx/resume/raw/main/Thomas-Franz-Resume-2021.pdf" class="btn-rounded-white">View Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                    Software developer actively seeking employment and taking courses on Udemy today!
+					</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="March 2008 – January 2020">
+                <h3>CT3, Inc</h3>
+                <h4>Software Engineer</h4>
+                <p>
+                    A small company developing and supporting database-driven software solutions for the timber and wood products industry.
+				</p>
+				<p>
+					I designed user interfaces, reports, and various in-house utilities and automation to support customer-facing products. I wrote data processing programs that performed parsing and data validation on various file formats, including a new preprocessing routine that would check for unexpected file formats and detect and prevent issues such as buffer overflows.
+				</p>
+            </div>
+
+            <div data-date="June 2007 - September 2007">
+                <h3>SMS.ac</h3>
+                <h4>Software Quality Assurance Engineer</h4>
+                <p>
+                    A company running a social networking website.
+				</p>
+				<p>
+					At SMS.ac, I spent three months as part of the quality assurance team, creating and running unit tests and exploring automation scripts.
+				</p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Oregon Institute of Technology</h3>
+            <span class="education-date">2003 - 2007</span>
+            <h4>Bachelor of Science in Computer Software Engineering Technology</h4>
+            <p>
+				Education built on a core of Object-Oriented C++
+			</p>
+        </div>
+        <!-- End .education-block -->
+
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project-crawler.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Reddit Wallpaper Crawler</h3>
+						<ul>
+						  <li>C#</li>
+						  <li>WPF</li>
+						  <li>JSON</li>
+						  <li>Async</li>
+						</ul>
+                        <p>
+                           An app designed to create collections of images posted recently on reddit! The user can manage the list of subreddits the app searches.
+						</p>
+                        <a href="https://github.com/franzpdx/RedditWallpaperCrawler">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project-tris.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Tetris</h3>
+						<ul>
+							<li>C++</li>
+							<li>OOP</li>
+							<li>Open GL</li>
+							<li>FMOD</li>
+							<li>Socket Server</li>
+							<li>SQL Server Database</li>
+						</ul>
+                        <p>
+							This was my senior project from 2007! Contains online multiplayer mode available using a companion server application. 
+						</p>
+						<p>
+							I am exploring the idea of updating this 14-year-old project to a supported graphic engine!
+						</p>
+						<p>
+							<a href="https://github.com/franzpdx/Tetris">View Project</a>
+						</p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+		<h3>Advanced</h3>
+		<ul>
+			<li>SQL</li>
+			<li>Oracle</li>
+			<li>Unix command-line</li>
+		</ul>
+		
+		<h3>Intermediate</h3>
+		<ul>
+            <li>C#</li>
+            <li>C++</li>
+            <li>OOP</li>
+        </ul>
+		
+		<h3>Proficient With</h3>
+		<ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+			<li>Design Patterns</li>
+			<li>WPF</li>
+			<li>JSON</li>
+			<li>Source Control</li>
+			<li>Unit Testing</li>
+			<li>Agile Development</li>
+		</ul>
+    </div>
+    <!-- End #skills -->
+	
+   <div id="contact">
+        <h2>Get in Touch</h2>
+		<p>
+			<a href="mailto:thomas.allen.franz@gmail.com from Our Site">thomas.allen.franz@gmail.com</a>
+		</p>
+		<p>
+			<a href="https://github.com/franzpdx/resume/raw/main/Thomas-Franz-Resume-2021.pdf" target="_blank"><i aria-hidden="true" class="btn-rounded-white">Resume</i></a>
+		</p>
+		<p>
+			<a href="https://github.com/franzpdx" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a>
+		</p>
+		<p>
+			<a href="https://linkedin.com/in/thomas-franz-pdx" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+		</p>
+	</div>
+		 <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2021 Thomas Franz
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
