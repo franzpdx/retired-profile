@@ -71,6 +71,31 @@ header {
         position: fixed;
         z-index: 999
     }
+	
+.banner-list li {
+    display: inline-block;
+    margin: 3px;
+    padding: 2px 4px;
+    font-size: 1em;
+    color: #374054;
+    background: #e4e4ea;
+    list-style: none;
+    cursor: default;
+}
+
+.bulleted-list ul {
+	list-style: circle;
+    display: block;
+}
+
+.bulleted-list li {
+    margin: 3px;
+    padding: 2px 2px;
+    font-size: 1em;
+    cursor: default;
+	color: #74808a;
+}
+
 
 #menu.active {
     display: block
@@ -351,17 +376,6 @@ footer {
     padding: 0;
 }
 
-#experience-timeline li {
-    display: inline-block;
-    margin: 3px;
-    padding: 2px 2px;
-    font-size: 1em;
-    color: #374054;
-    background: #e4e4ea;
-    list-style: none;
-    cursor: default;
-}
-
 #experience-timeline > div p {
     color: #74808a;
     font-size: 0.9em;
@@ -525,24 +539,6 @@ footer {
         padding: 0 0 0 15px
     }
 
-#projects ul {
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    max-width: 800px
-}
-
-#projects li {
-    display: inline-block;
-    margin: 3px;
-    padding: 4px 8px;
-    color: #374054;
-    background: #e4e4ea;
-    list-style: none;
-    cursor: default;
-    font-size: .8em
-}
-
 #projects {
     padding: 50px 15px;
     border-bottom: 1px solid #dcd9d9;
@@ -553,6 +549,7 @@ footer {
         color: #374054;
         margin-bottom: 50px
     }
+
 
 .project {
     position: relative;
@@ -773,6 +770,18 @@ div.desc {
     .optional-section-block ul {
         padding: 0 0 0 15px
     }
+
+.bulleted-list ul {
+	list-style: circle;
+	background: none;
+	font-size: 0.9em
+}
+
+.bulleted-list li {
+	list-style: circle;
+	color: none;
+	font-size: 0.9em
+}
 
 @media only screen and (max-width: 750px) {
     #experience-timeline:before, #experience-timeline:after {
